@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>全局配置文件</h1>
+    <a href="https://developers.weixin.qq.com/miniprogram/dev/reference/configuration/app.html">官方文档</a>
+    <br>
+    <img src="img/02-01.jpg" alt="02-01" width="250px">
+    <p>在 app.json 中的是全局配置文件</p>
+    <h2>pages字段</h2>
+    <p>pages字段——用来描述当前小程序的所有页面路径</p>
+    <p>可以让微信客户端知道小程序页面定义在哪个目录</p>
+    <p>快捷创建页面：在pages字段中加入创建路径，会自动创建内容</p>
+    <p>最前面的index是首页，可以改为其他</p>
+
+    <h2>window字段</h2>
+    <img src="img/02-02.jpeg" alt="" height="500px">
+    <p>window字段——定义小程序所有页面的顶部背景颜色，文字颜色等</p>
+    <p>增加最后一个属性打开支持全局下拉刷新</p>
+
+
+
+    <h2>tabbar字段</h2>
+    <img src="img/02-03.jpg" alt="02-03" width="500px">
+    <img src="img/02-04.jpeg" alt="02-04" width="500px">
+    <p>pagepath：链接路径</p>
+    <p>text：按钮下方标题</p>
+    <p>iconpath: 图片路径</p>
+    <p>selected...: 选中后的属性</p>
+
+
+    <h1>页面配置 pages/name.json</h1>
+    <p>页面配置和全局配置类似, 大多数属性重复<br>只需将自己的json文件修改就可以实现"个性化"</p>
+
+    <a href="01 原生框架的目录结构.html">上一章：原生框架的目录结构</a>
+    <a href="03 sitmap配置.html">下一章: 03 sitmap配置.html</a>
+</body>
+</html>
